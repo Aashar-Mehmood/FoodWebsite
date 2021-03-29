@@ -18,7 +18,8 @@ a {
 	display: inline-block;
 	text-align: center;
 	background-color:#ac77c8b0;
-	color: yellow;
+	color: black;
+	font-size: 18px;
 	text-decoration: none;
 	border: 1px solid yellow;
 }
@@ -154,6 +155,9 @@ section#first div.wrapper div.items {
 	justify-content: space-around;
 	margin-bottom: 5%;
 	border-radius: 5px;
+	padding:25px;
+	background: #fff;
+	border: 1px solid grey;
 }
 
 section#first div.wrapper div.items>*{
@@ -169,12 +173,13 @@ section#first div.wrapper div.items img {
 	border-radius: 5px;
 }
 section#first div.wrapper div.items a {
-	width: 140px;
-	height: 40px;
-	line-height: 40px;
+	width: 160px;
+	height: 55px;
+	line-height: 55px;
 	justify-self: center;
 	color:black;
-	font-size: 1.2em;
+	font-size: 20px;
+	border-radius: 5px;
 }
 
 /*/////////////////Section 2 of main2//////////////////////////*/
@@ -191,13 +196,20 @@ section#second div.wrapper {
 	justify-content: space-between;
 	margin-bottom: 10%;
 }
-section#second div.wrapper div.allInOne{
-	width: 48%;
-	display: flex;
-	flex-flow: row;
-	flex-wrap: wrap;
-	margin:2% 0;
-}
+
+section#second div.wrapper div.allInOne {
+    width: 48%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 2% 0;
+    background: white;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px 1px grey;
+    padding: 45px 20px;
+ }
 section#second div.wrapper div.allInOne img {
 	width:50%;
 	height: 100%;
@@ -222,9 +234,11 @@ section#second div.txt h2 {
 }
 section#second div.txt a {
 	margin-left:2%;
-	width: 120px;
-	height: 35px;
-	line-height: 35px;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	border-radius: 5px;
 	
 }
 
@@ -395,6 +409,14 @@ div.copy {
 	}
 	section#second div.wrapper div.allInOne{
 		width: auto;
+		flex-flow: column;
+		padding: 15px 10px;
+		margin-bottom: 20px;
+	}
+	section#second div.wrapper div.allInOne img, section#second div.wrapper div.allInOne div{
+		width: 90%;
+		margin: 10px auto;
+		
 	}
 	section#connect input, section#connect textarea {
 		width: 75%;
