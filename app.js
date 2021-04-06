@@ -7,7 +7,6 @@ const bgImages = [
 const bgImage = document.querySelector('section.background div.bgImage img');
 let counter = 0;
 setInterval(() => {
-  console.log(counter);
   bgImage.src = bgImages[counter];
   counter++;
   if(counter>=bgImages.length){
